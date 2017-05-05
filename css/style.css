@@ -1,0 +1,82 @@
+* {
+    font-family: 'Merriweather Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #4a148c;
+    color: white;
+}
+
+.vertical-center {
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.container {
+    padding: 2em;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1.5px;
+    line-height: 1.5em;
+}
+
+
+/*HEADER*/
+
+header h1 {
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+
+/*END*/
+
+
+/*INSCRIPTION / CONNEXION*/
+
+.containercustom {
+    padding: 2em;
+    background-color: white;
+}
+
+#contentchat h2 {
+    margin-bottom: 30px;
+    margin-top: 0;
+    color: #4a148c;
+}
+
+form input {
+    margin-bottom: 15px;
+}
+
+
+/*END*/
+
+
+/*CHAT*/
+
+.customchat {
+    padding: 2em;
+    background-color: white;
+    color: #4a148c;
+    margin-bottom: 20px;
+    overflow: scroll;
+    height: 300px;
+}
+
+#message {
+    width: 100%;
+    height: 35px;
+    color: #4a148c;
+}
+
+
+/*END*/
